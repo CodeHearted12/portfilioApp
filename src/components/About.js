@@ -15,7 +15,7 @@ class About extends Component {
       <div>
         <h1 style={{textAlign: "center", color: "#601829"}}>About</h1>
         <div style={{textAlign:"center"}}>
-          <img src={require(' ')} alt="" style={{width: "50%", borderRadius: "90%"}}/>
+          <img src={require('https://imgur.com/a/KWQnO')} alt="" style={{width: "50%", borderRadius: "90%"}}/>
         </div>
         <ul style={ul}>
           <li>Engineer</li>

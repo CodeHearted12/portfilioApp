@@ -14,7 +14,7 @@ export default class Contact extends Component {
           <div>
             <h1 style={{textAlign: "center", color: "#FF4571"}}>"Contact Info"</h1>
           <div style={{textAlign:"center"}}>
-            <img src={require('       ')} alt="" style={{width: "50%", borderRadius: "90%"}}/>
+            <img src={require('https://imgur.com/a/KWQnO')} alt="" style={{width: "50%", borderRadius: "90%"}}/>
           <ul style={ul}>
             <li>Contact Information</li>
             <li>email@email.com</li>

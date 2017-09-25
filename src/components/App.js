@@ -6,7 +6,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import References from './References';
-import index from './index.js'
+import index from './index'
 import '../styles/App.css';
 
 class App extends Component {
