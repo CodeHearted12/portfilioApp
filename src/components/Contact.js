@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class Contact extends Component {
+ class Contact extends Component {
 
   render(){
     let ul = {
@@ -14,7 +14,7 @@ export default class Contact extends Component {
           <div>
             <h1 style={{textAlign: "center", color: "#FF4571"}}>"Contact Info"</h1>
           <div style={{textAlign:"center"}}>
-            <img src={require('https://imgur.com/a/KWQnO')} alt="" style={{width: "50%", borderRadius: "90%"}}/>
+            <img src='https://i.imgur.com/IneCjQZ.jpg' alt="" style={{width: "50%", borderRadius: "90%"}}/>
           <ul style={ul}>
             <li>Contact Information</li>
             <li>email@email.com</li>
@@ -24,3 +24,4 @@ export default class Contact extends Component {
             );
           }
         }
+        export default Contact;

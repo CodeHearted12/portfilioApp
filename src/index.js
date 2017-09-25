@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
 import App from './components/App';
+import './styles/index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
-import BaseLayout from './components/BaseLayout'
 import Home from './components/Home'
-import About from './components/About'
+import References from './components/References'
+import BaseLayout from './components/BaseLayout'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
-import References from './components/References'
+import About from './components/About'
 
 ReactDOM.render(
   <BrowserRouter>
